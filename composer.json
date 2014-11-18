@@ -1,0 +1,31 @@
+{
+    "name": "dragonrun1/win_scheduled_tasks",
+    "description": "Used to manage Windows Scheduled Tasks in PHP",
+    "authors": [
+        {
+            "name": "Michael Cummings",
+            "email": "mgcummings@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WinScheduledTasks\\": ["src/"]
+        }
+    },
+    "keywords": [
+        "Windows",
+        "schedule",
+        "scheduled",
+        "task",
+        "schtasks",
+        "cron",
+        "crontab",
+        "scheduled tasks",
+        "job"
+    ],
+    "license": "GPL-2.0",
+    "minimum-stability": "dev",
+    "require": {
+        "dragonrun1/file_path_normalizer": "dev-master"
+    }
+}
